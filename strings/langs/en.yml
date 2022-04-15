@@ -237,7 +237,7 @@ stream_4 : "<u>**Stream has started**</u> 📡\n\n**Title :-** [{0}]({1})\n**Dur
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "🔚 Close"
+CLOSE_BUTTON  : "🔄 Close"
 CLOSEMENU_BUTTON  : "✘ Close Menu"
 BACK_BUTTON : "🔙 Back"
 UNBAN_BUTTON : "🤖 Unban Assistant"
@@ -252,7 +252,7 @@ S_B_3 : "📨 Support"
 S_B_4 : "📨 Updates"
 S_B_5 : "✚ Add me to your Group"
 S_B_6 : "⚙ Code"
-S_B_7 : "💲Bot Owner"
+S_B_7 : "🏳‍🌈 Bot Owner"
 S_B_8 : "🔍 How to use? Commands"
 
 #Help 
@@ -293,7 +293,7 @@ ST_B_2 : "🎥 Vid Quality"
 ST_B_3 : "✅ Auth Users"
 ST_B_4 : "📱 Dashboard"
 ST_B_5 : "▶️ Play Mode"
-ST_B_6 : "🏳️‍🌈 Languages"
+ST_B_6 : "💡 Languages"
 ST_B_7 : "🚮 Clean Mode"
 ST_B_8 : "{0} Low Quality Audio"
 ST_B_9 : "{0} Medium Quality Audio"
