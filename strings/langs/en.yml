@@ -225,7 +225,7 @@ song_11 : "**Uploading Started**\n\nPlease Wait. Connecting to the fastest Serve
 queue_1 : "Please Wait..Fetching Queue.."
 queue_2 : "Queued List is empty. No tracks found"
 queue_3 : "<u>**Queued Tracks:</u>**  [Checkout More Queued Tracks From Here]({0})"
-queue_4 : "**Song successfully added to the queue #{0}**\n\nTitle :- {1}\nDuration :- {2}\nAdded By :- {3}"
+queue_4 : "**Song successfully added to the queue #{0}**\n\n» Title :- {1}\n» Duration :- {2}\n» Added By :- {3}"
 queue_5 : "Only one track inside queue, Please add some more to check list"
 
 # All Streaming Lines
@@ -238,7 +238,7 @@ stream_4 : "<u>**Stream has started**</u> 📡\n\n**Title :-** [{0}]({1})\n**Dur
 
 #General Buttons
 CLOSE_BUTTON  : "🔚 Close"
-CLOSEMENU_BUTTON  : "🗑 Close Menu"
+CLOSEMENU_BUTTON  : "✘ Close Menu"
 BACK_BUTTON : "🔙 Back"
 UNBAN_BUTTON : "🤖 Unban Assistant"
 
@@ -252,8 +252,8 @@ S_B_3 : "📨 Support"
 S_B_4 : "📨 Updates"
 S_B_5 : "✚ Add me to your Group"
 S_B_6 : "⚙ Code"
-S_B_7 : "👤 Bot Owner"
-S_B_8 : "🔍 How to use ?? Commands"
+S_B_7 : "💲Bot Owner"
+S_B_8 : "🔍 How to use? Commands"
 
 #Help 
 H_B_1 : "Admin Commands"
