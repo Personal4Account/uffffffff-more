@@ -53,9 +53,9 @@ admin_14 : "Atleast 2 tracks needed in queue to skip to a specific number. Check
 admin_15 : "Not enough tracks in queue for the value given by you. Please choose numbers between 1 and {0}"
 admin_16 : "Failed to skip to specific track.\n\nCheck left queue by /queue"
 admin_17 : "{0}.. Please Wait"
-admin_18 : "Admin List Not Found\n\nPlease reload adminlist via /admincache or /reload"
+admin_18 : "I am not able to find admin list of your Group !!\n\n**Please reload it by :-**\n/admincache"
 admin_19 : "You need to be admin with manage voice chat rights to perform this.\nIf you're already admin, reload admincache via /admincache "
-admin_20 : "Admin cache reloaded successfully."
+admin_20 : "**AdminList has been updated successfully !!**"
 admin_21 : "Nothing inside queue to shuffle"
 admin_22 : "Failed to shuffle.\n\nCheck queue : /queue"
 admin_23 : "**Queue Shuffled by {0}**\n\nCheck shuffled queue : /queue"
@@ -163,7 +163,7 @@ play_18 : "**No Active Voice Chat Found**\n\nTo use force play, there must be an
 
 
 #Playlist
-playlist_1 : "**Command :-** /play [Music Name or Youtube Link or Reply to Audio]\n\nIf you want to play Bot's Server Playlist! Press the button below."
+playlist_1 : "**Command :-**\n\n/play [ Name or YT Link or Reply to Audio]\n\nIf you wants to play Bot's Server Playlist then press on the button given below."
 playlist_2 : "Getting your playlist. Please wait"
 playlist_3 : "You have no playlist on Bot's Server."
 playlist_4 : "Fetched Playlist:\n\n"
