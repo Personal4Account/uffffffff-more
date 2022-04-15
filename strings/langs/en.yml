@@ -75,7 +75,7 @@ admin_34 : "Failed to seek the current stream."
 
 # Start
 start_1 : "Thanks for having me in {0}.\n{1} is alive.\n\nFor any assistance or help, checkout our support group and channel."
-start_2 : "Hello, My name is {0}.\n\nI am easy to use superfast telegram player for playing high quality and unbreakable music and video in your groups voice chat.\n\nSupporting platforms like :-\n• YouTube\n• Spotify\n• Resso\n• Apple Music\n• Sound Cloud and many more\n\nUse the given buttons for more."
+start_2 : "Hello, My name is **{0}**.\n\nl am easy to use superfast telegram player for playing high quality and unbreakable music and video in your groups voice chat.\n\nSupporting platforms like YouTube , Spotify , Resso , AppleMusic , Ganna , Soundcloud and many more.\n\nUse the given buttons for more."
 start_3 : "Thanks for Joining My Server !! I will show my best performance. If anytime you faced any type of problem related to me then please kindly report in my support chat.\n\nAssistant :- @{1}"
 start_4 : "{0}'s Owner[{1}] has just joined your chat."
 start_5 : "A member of {0}'s Sudo User[{1}] has just joined your chat."
