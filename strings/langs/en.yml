@@ -229,10 +229,10 @@ queue_4 : "⏳ Added to Queue at **#{0}\n\n💡Title:** {1}\n**⏱Duration:** {2
 queue_5 : "Only one track inside queue, Please add some more to check list"
 
 # All Streaming Lines
-stream_1 : "Stream has started 📡\n\n**Bot User :-** {0}\n**Song Info :-**[Here]({1})"
-stream_2 : "Stream has started 📡\n\n**Bot User :-** {0}"
-stream_3 : "Stream has started 📡\n\n**Title :-** {0}\n**Duration :-** {1}\n**Bot User :-** {2}"
-stream_4 : "Stream has started 📡\n\n**Title :-** [{0}]({1})\n**Duration :-** {2}\n**Bot User :-** {3}"
+stream_1 : "<u>**Stream has started**</u> 📡**Bot User :-** {0}\n**Song Info :-** [Here]({1})"
+stream_2 : "<u>**Stream has started**</u> 📡\n\n**Bot User :-** {0}"
+stream_3 : "<u>**Stream has started**</u> 📡\n\n**Title :-** {0}\n**Duration :-** {1}\n**Bot User :-** {2}"
+stream_4 : "<u>**Stream has started**</u> 📡\n\n**Title :-** [{0}]({1})\n**Duration :-** {2}\n**Bot User :-** {3}"
 
 # Inline Buttons
 
@@ -251,9 +251,9 @@ S_B_2 : "⚙️ Settings"
 S_B_3 : "📨 Support"
 S_B_4 : "📨 Updates"
 S_B_5 : "✚ Add me to your Group"
-S_B_6 : "💡 Source Code"
-S_B_7 : "👨‍💻 Bot Owner"
-S_B_8 : "🔎 How to Use? Commands"
+S_B_6 : "⚙ Code"
+S_B_7 : "👤 Owner"
+S_B_8 : "🔍 How to use ?? Commands"
 
 #Help 
 H_B_1 : "Admin Commands"
