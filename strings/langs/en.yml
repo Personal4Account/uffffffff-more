@@ -74,8 +74,8 @@ admin_34 : "Failed to seek the current stream."
 # Bot 
 
 # Start
-start_1 : "Thanks for having me in {0}.\n{1} is alive.\n\nFor any assistance or help, checkout our support group and channel."
-start_2 : "Hello, My name is **{0}**.\n\nl am easy to use superfast telegram player for playing high quality and unbreakable music and video in your groups voice chat.\n\nSupporting platforms like YouTube , Spotify , Resso , AppleMusic , Ganna , Soundcloud and many more.\n\nUse the given buttons for more."
+start_1 : "Thanks for Adding me in your precious Chat.\n\n**For any assistance or help, checkout our support group and channel.**"
+start_2 : "Hello, My name is **{0}**.\n\nI am easy to use superfast telegram player for playing high quality and unbreakable music and video in your groups voice chat.\n\nUse the given buttons for more."
 start_3 : "Thanks for Joining My Server !! I will show my best performance. If anytime you faced any type of problem related to me then please kindly report in my support chat.\n\nAssistant :- @{1}"
 start_4 : "{0}'s Owner[{1}] has just joined your chat."
 start_5 : "A member of {0}'s Sudo User[{1}] has just joined your chat."
@@ -225,7 +225,7 @@ song_11 : "**Uploading Started**\n\nPlease Wait. Connecting to the fastest Serve
 queue_1 : "Please Wait..Fetching Queue.."
 queue_2 : "Queued List is empty. No tracks found"
 queue_3 : "<u>**Queued Tracks:</u>**  [Checkout More Queued Tracks From Here]({0})"
-queue_4 : "⏳ Added to Queue at **#{0}\n\n💡Title:** {1}\n**⏱Duration:** {2}\n👤**Added By:** {3}"
+queue_4 : "**Song successfully added to the queue #{0}**\n\nTitle :- {1}\nDuration :- {2}\nAdded By :- {3}"
 queue_5 : "Only one track inside queue, Please add some more to check list"
 
 # All Streaming Lines
@@ -252,7 +252,7 @@ S_B_3 : "📨 Support"
 S_B_4 : "📨 Updates"
 S_B_5 : "✚ Add me to your Group"
 S_B_6 : "⚙ Code"
-S_B_7 : "👤 Owner"
+S_B_7 : "👤 Bot Owner"
 S_B_8 : "🔍 How to use ?? Commands"
 
 #Help 
@@ -310,8 +310,8 @@ ST_B_19 : "🔎 Search Mode"
 ST_B_20 : "✅ Direct"
 ST_B_21 : "✅ Inline"
 ST_B_22 : "👨‍⚖️ Admin Commands"
-ST_B_23 : "🏘 Group"
-ST_B_24 : "🏷 Channel"
+ST_B_23 : "🏘 Support"
+ST_B_24 : "🏷 Updates"
 ST_B_25 : "🫂 Play Type"
 ST_B_26 : "🗑 Command Clean"
 ST_B_27 : "🧑‍🚀 Suggestion Mode"
