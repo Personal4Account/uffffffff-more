@@ -212,14 +212,14 @@ ping_2 : "{0} is working good with a ping of `{1}` ms.\n\nBot's uptime is {2} an
 song_1 : "You can download Music or Video from YouTube only in private chat. Please start me in private chat."
 song_2 : "**Usage:**\n\n/song [Music Name] or [Youtube Link]"
 song_3 : "Live Link Detected. I am not able to download live youtube videos. "
-song_4 : "**🔗Title:**- {0}\n\nSelect the type in which you want to download."
+song_4 : "**Title :-** {0}\n\nSelect the type in which you want to download."
 song_5 : "Not a valid Youtube Link"
 song_6 : "Getting Formats.. \n\nPlease Wait.."
 song_7 : "Failed to get available formats for the video. Please try any other track."
-song_8 : "Download Started\n\nDownloading speed could be slow. Please hold on.."
+song_8 : "**Download Started**\n\nPlease wait. Connecting to the fastest server !!"
 song_9 : "Failed to download song from Youtube-DL\n\n**Reason:** {0}"
 song_10 : "Failed to upload on telegram from servers."
-song_11 : "Uploading Started\n\nUploading speed could be slow. Please hold on.."
+song_11 : "**Uploading Started**\n\nPlease Wait. Connecting to the fastest Server !!"
 
 # Tools - Queue
 queue_1 : "Please Wait..Fetching Queue.."
