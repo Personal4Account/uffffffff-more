@@ -237,8 +237,8 @@ stream_4 : "<u>**Stream has started**</u> 📡\n\n**Title :-** [{0}]({1})\n**Dur
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "✖Close"
-CLOSEMENU_BUTTON  : "✖Close"
+CLOSE_BUTTON  : "× Close"
+CLOSEMENU_BUTTON  : "× Close"
 BACK_BUTTON : "⬅️ Back"
 UNBAN_BUTTON : "🤖 Unban Assistant"
 
@@ -260,7 +260,7 @@ H_B_1 : "Admin Commands"
 H_B_2 : "Play Commands"
 H_B_3 : "Bot Commands"
 H_B_4 : "Extra Commands"
-H_B_5 : "✖Close"
+H_B_5 : "× Close"
 H_B_6 : "SudoUser Commands"
 
 #PlayMode
