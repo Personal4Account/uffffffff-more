@@ -264,6 +264,10 @@ H_B_4 : "Extra Commands"
 H_B_5 : "🚫 Close"
 H_B_6 : "SudoUser Commands"
 
+#Info
+B_I_1 : "🤖 Bot Information"
+B_I_2 : "‼️ Bot Full Setup"
+
 #PlayMode
 PM_B_1 : "DirectPlay"
 PM_B_2 : "InlineMarkup"
