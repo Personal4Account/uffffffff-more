@@ -35,13 +35,13 @@ def info_pannel(_, START: Union[bool, int] = None):
             [
                 InlineKeyboardButton(
                     text=_["B_I_2"],
-                    callback_data="info_callback hb1",
+                    callback_data="info_callback info1",
                 ), 
             ],
             [
                 InlineKeyboardButton(
                     text=_["B_I_1"],
-                    callback_data="info_callback hb5",
+                    callback_data="info_callback info2",
                 ),
             ],
             mark,
