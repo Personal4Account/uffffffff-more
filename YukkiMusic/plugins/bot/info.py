@@ -14,7 +14,7 @@ from pyrogram import filters, types
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 from config import BANNED_USERS
-from strings import get_command, get_string, helpers
+from strings import get_command, get_string, botinfo
 from YukkiMusic import app
 from YukkiMusic.misc import SUDOERS
 from YukkiMusic.utils import info_pannel
