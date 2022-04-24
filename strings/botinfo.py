@@ -8,23 +8,26 @@
 # All rights reserved.
 
 
-BOT_ABOUT = """**Thanks for Joining Us 🌸
-All the information about me Given Below 🍁 Keep Supporting us ☘**
+BOT_ABOUT = """Thanks for Joining Us 🌸
+All the information about me Given Below 🍁 Keep Supporting us ☘
 
 
 🌟 My Owner : 
      @Its_romeoo
 
 👨‍💻 My Maintainer :
+      • @PhoenixWarmed
       • @PAPA_AADIT
       • @xtm_BidiBaaz
 
 
 ⚙ Support Chat
      @StrayCoderSupport
+     @CFC_BOT_SUPPORT
 
 📺 Updates Server 
      @StrayCoder
+     @CFC_BOTS
 
 
 🤖 Features About Me :
@@ -54,4 +57,4 @@ BOT_SETUP = """Setup me in your Group with the following given Steps ‼️
 
 • To know all the commands of the bot , Type /help
 
-© @StrayCoder || @Its_romeoo"""
+© @StrayCoder | @Its_romeoo"""
