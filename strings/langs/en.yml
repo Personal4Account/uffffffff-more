@@ -250,11 +250,12 @@ S_B_1 : "❓Commands"
 S_B_2 : "⚙️ Settings"
 S_B_3 : "📨 Support"
 S_B_4 : "📨 Updates"
-S_B_5 : "✚ Click here to add Me"
+S_B_5 : "✚ Click Here To Add Me"
 S_B_6 : "⚙ Code"
 S_B_7 : "🏳‍🌈 Bot Owner"
 S_B_8 : "🆘 Help"
 S_B_9 : "📍About"
+S_B_10 : "🗣 Select Other Language"
 
 #Help 
 H_B_1 : "Admin Commands"
