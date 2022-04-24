@@ -50,7 +50,7 @@ async def botinfo_private(
         chat_id = update.message.chat.id
         language = await get_lang(chat_id)
         _ = get_string(language)
-        keyboard = help_pannel(_, True)
+        keyboard = info_pannel(_, True)
         if update.message.photo:
             await update.message.delete()
             await update.message.reply_text(
@@ -69,7 +69,7 @@ async def botinfo_private(
                 pass
         language = await get_lang(chat_id)
         _ = get_string(language)
-        keyboard = help_pannel(_)
+        keyboard = info_pannel(_)
         await update.reply_text(_["B_I_3"], reply_markup=keyboard)
 
 
