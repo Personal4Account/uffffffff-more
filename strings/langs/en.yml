@@ -75,7 +75,7 @@ admin_34 : "Failed to seek the current stream."
 
 # Start
 start_1 : "Thanks for Adding me in your precious Chat.\n\n**For any assistance or help, checkout our support group and channel.**"
-start_2 : "Hello, My name is **{0}**.\n\nI am easy to use superfast telegram player for playing high quality and unbreakable music and video in your groups voice chat.\n\nUse the given buttons for more."
+start_2 : "Welcome !! {message.from_user.mention()}\n\nJust add me in your precious chat and feel Unbreakable and High Quality music and video in voice chat.\n\nI am Senorita 🦋 Thnxx For Joining me </🇮🇳 @StrayCoder\n\nUse Inline Buttons given below for more !! If you are facing any problem regarding me then kindly report in my support chat."
 start_3 : "Thanks for Joining My Server !! I will show my best performance. If anytime you faced any type of problem related to me then please kindly report in my support chat.\n\nAssistant :- @{1}"
 start_4 : "{0}'s Owner[{1}] has just joined your chat."
 start_5 : "A member of {0}'s Sudo User[{1}] has just joined your chat."
@@ -250,10 +250,11 @@ S_B_1 : "❓Commands"
 S_B_2 : "⚙️ Settings"
 S_B_3 : "📨 Support"
 S_B_4 : "📨 Updates"
-S_B_5 : "✚ Add me to your Group"
+S_B_5 : "✚ Click here to add Me"
 S_B_6 : "⚙ Code"
 S_B_7 : "🏳‍🌈 Bot Owner"
-S_B_8 : "🔍 How to use? Commands"
+S_B_8 : "🆘 Help"
+S_B_9 : "📍About"
 
 #Help 
 H_B_1 : "Admin Commands"
