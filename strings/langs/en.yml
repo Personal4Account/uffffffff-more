@@ -258,12 +258,12 @@ S_B_9 : "📍About"
 S_B_10 : "🗣 Select Other Language"
 
 #Help 
-H_B_1 : "Admin Commands"
-H_B_2 : "Play Commands"
-H_B_3 : "Bot Commands"
-H_B_4 : "Extra Commands"
+H_B_1 : "👤 Admins"
+H_B_2 : "🎸 Music"
+H_B_3 : "🤖 Robot"
+H_B_4 : "⚙ Extra"
 H_B_5 : "🚫 Close"
-H_B_6 : "SudoUser Commands"
+H_B_6 : "👨‍💻 Developers"
 
 #Info
 B_I_1 : "🤖 Bot Information"
