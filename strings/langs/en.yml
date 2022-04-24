@@ -75,7 +75,7 @@ admin_34 : "Failed to seek the current stream."
 
 # Start
 start_1 : "Thanks for Adding me in your precious Chat.\n\n**For any assistance or help, checkout our support group and channel.**"
-start_2 : "Welcome !! {message.from_user.mention()}\n\nJust add me in your precious chat and feel Unbreakable and High Quality music and video in voice chat.\n\nI am Senorita 🦋 Thnxx For Joining me </🇮🇳 @StrayCoder\n\nUse Inline Buttons given below for more !! If you are facing any problem regarding me then kindly report in my support chat."
+start_2 : "Welcome !! {message.from_user.mention()}\n\nJust add me in your precious chat and feel Unbreakable and High Quality music and video in voice chat.\n\nI am {0} 🦋 Thnxx For Joining me </🇮🇳 @StrayCoder\n\nUse Inline Buttons given below for more !! If you are facing any problem regarding me then kindly report in my support chat."
 start_3 : "Thanks for Joining My Server !! I will show my best performance. If anytime you faced any type of problem related to me then please kindly report in my support chat.\n\nAssistant :- @{1}"
 start_4 : "{0}'s Owner[{1}] has just joined your chat."
 start_5 : "A member of {0}'s Sudo User[{1}] has just joined your chat."
