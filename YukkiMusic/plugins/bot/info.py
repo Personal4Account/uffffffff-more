@@ -54,11 +54,11 @@ async def helper_private(
         if update.message.photo:
             await update.message.delete()
             await update.message.reply_text(
-                _["help_1"], reply_markup=keyboard
+                _["B_I_3"], reply_markup=keyboard
             )
         else:
             await update.edit_message_text(
-                _["help_1"], reply_markup=keyboard
+                _["B_I_3"], reply_markup=keyboard
             )
     else:
         chat_id = update.chat.id
