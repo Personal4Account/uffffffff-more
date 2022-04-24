@@ -50,13 +50,13 @@ def info_pannel(_, START: Union[bool, int] = None):
     return upl
 
 
-def info_back_markup(_):
+def bot_back_markup(_):
     upl = InlineKeyboardMarkup(
         [
             [
                 InlineKeyboardButton(
                     text=_["BACK_BUTTON"],
-                    callback_data=f"settings_back_about",
+                    callback_data=f"info_callback",
                 ),
                 InlineKeyboardButton(
                     text=_["CLOSE_BUTTON"], callback_data=f"close"
