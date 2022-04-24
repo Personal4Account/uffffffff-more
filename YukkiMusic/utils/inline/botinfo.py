@@ -23,7 +23,7 @@ def info_pannel(_, START: Union[bool, int] = None):
     second = [
         InlineKeyboardButton(
             text=_["BACK_BUTTON"],
-            callback_data=f"settingsback_helper",
+            callback_data=f"settingsback_about",
         ),
         InlineKeyboardButton(
             text=_["CLOSEMENU_BUTTON"], callback_data=f"close"
@@ -34,14 +34,14 @@ def info_pannel(_, START: Union[bool, int] = None):
         [
             [
                 InlineKeyboardButton(
-                    text=_["H_B_1"],
-                    callback_data="help_callback hb1",
+                    text=_["B_I_2"],
+                    callback_data="info_callback hb1",
                 ), 
             ],
             [
                 InlineKeyboardButton(
-                    text=_["H_B_6"],
-                    callback_data="help_callback hb5",
+                    text=_["B_I_1"],
+                    callback_data="info_callback hb5",
                 ),
             ],
             mark,
