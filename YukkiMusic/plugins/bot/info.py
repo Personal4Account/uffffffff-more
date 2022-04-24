@@ -25,16 +25,6 @@ from YukkiMusic.utils.inline.help import (help_back_markup,
                                           private_help_panel)
 
 
-### Command
-HELP_COMMAND = get_command("HELP_COMMAND")
-
-
-@app.on_message(
-    filters.command(HELP_COMMAND)
-    & filters.private
-    & ~filters.edited
-    & ~BANNED_USERS
-)
 @app.on_callback_query(
     filters.regex("settings_back_about") & ~BANNED_USERS
 )
@@ -71,20 +61,6 @@ async def botinfo_private(
         _ = get_string(language)
         keyboard = info_pannel(_)
         await update.reply_text(_["B_I_3"], reply_markup=keyboard)
-
-
-@app.on_message(
-    filters.command(HELP_COMMAND)
-    & filters.group
-    & ~filters.edited
-    & ~BANNED_USERS
-)
-@LanguageStart
-async def help_com_group(client, message: Message, _):
-    keyboard = private_help_panel(_)
-    await message.reply_text(
-        _["help_2"], reply_markup=InlineKeyboardMarkup(keyboard)
-    )
 
 
 @app.on_callback_query(filters.regex("info_callback") & ~BANNED_USERS)
