@@ -8,7 +8,7 @@
 # All rights reserved.
 
 
-BOT_INFO = """**Thanks for Joining Us 🌸
+BOT_ABOUT = """**Thanks for Joining Us 🌸
 All the information about me Given Below 🍁 Keep Supporting us ☘**
 
 
