@@ -36,7 +36,7 @@ HELP_COMMAND = get_command("HELP_COMMAND")
     & ~BANNED_USERS
 )
 @app.on_callback_query(
-    filters.regex("settings_back_about") & ~BANNED_USERS
+    filters.regex("settings_back_info") & ~BANNED_USERS
 )
 async def botinfo_private(
     client: app, update: Union[types.Message, types.CallbackQuery]
