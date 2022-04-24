@@ -54,6 +54,4 @@ BOT_SETUP = """Setup me in your Group with the following given Steps ‼️
 
 • To know all the commands of the bot , Type /help
 
-© @StrayCoder || @Its_romeoo
-
-"""
+© @StrayCoder || @Its_romeoo"""
