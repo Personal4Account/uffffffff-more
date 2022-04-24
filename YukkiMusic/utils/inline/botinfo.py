@@ -23,7 +23,7 @@ def info_pannel(_, START: Union[bool, int] = None):
     second = [
         InlineKeyboardButton(
             text=_["BACK_BUTTON"],
-            callback_data=f"settingsback_helper",
+            callback_data=f"settingsback_botinfo",
         ),
         InlineKeyboardButton(
             text=_["CLOSEMENU_BUTTON"], callback_data=f"close"
