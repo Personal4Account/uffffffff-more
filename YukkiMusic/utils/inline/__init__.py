@@ -7,6 +7,7 @@
 #
 # All rights reserved.
 
+from .botinfo import *
 from .help import *
 from .play import *
 from .playlist import *
