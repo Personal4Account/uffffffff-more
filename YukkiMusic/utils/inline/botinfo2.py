@@ -50,7 +50,7 @@ def info_pannel(_, START: Union[bool, int] = None):
     return upl
 
 
-def botinfo_back_markup(_):
+def help_back_markup(_):
     upl = InlineKeyboardMarkup(
         [
             [
