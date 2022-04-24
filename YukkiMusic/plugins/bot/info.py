@@ -36,7 +36,7 @@ HELP_COMMAND = get_command("HELP_COMMAND")
     & ~BANNED_USERS
 )
 @app.on_callback_query(
-    filters.regex("settings_back_info") & ~BANNED_USERS
+    filters.regex("settings_back_about") & ~BANNED_USERS
 )
 async def botinfo_private(
     client: app, update: Union[types.Message, types.CallbackQuery]
@@ -92,7 +92,7 @@ async def help_com_group(client, message: Message, _):
 async def botinfo_cb(client, CallbackQuery, _):
     callback_data = CallbackQuery.data.strip()
     cb = callback_data.split(None, 1)[1]
-    keyboard = botinfo_back_markup(_)
+    keyboard = help_back_markup(_)
     try:
         await CallbackQuery.answer()
     except:
