@@ -21,7 +21,7 @@ from YukkiMusic.utils import info_pannel
 from YukkiMusic.utils.database import get_lang, is_commanddelete_on
 from YukkiMusic.utils.decorators.language import (LanguageStart,
                                                   languageCB)
-from YukkiMusic.utils.inline.help import (about_back_markup,
+from YukkiMusic.utils.inline.botinfo2 import (about_back_markup,
                                           private_help_panel)
 
 
