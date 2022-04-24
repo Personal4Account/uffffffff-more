@@ -38,7 +38,7 @@ HELP_COMMAND = get_command("HELP_COMMAND")
 @app.on_callback_query(
     filters.regex("settings_back_about") & ~BANNED_USERS
 )
-async def helper_private(
+async def botinfo_private(
     client: app, update: Union[types.Message, types.CallbackQuery]
 ):
     is_callback = isinstance(update, types.CallbackQuery)
@@ -50,7 +50,7 @@ async def helper_private(
         chat_id = update.message.chat.id
         language = await get_lang(chat_id)
         _ = get_string(language)
-        keyboard = help_pannel(_, True)
+        keyboard = about_pannel(_, True)
         if update.message.photo:
             await update.message.delete()
             await update.message.reply_text(
@@ -69,7 +69,7 @@ async def helper_private(
                 pass
         language = await get_lang(chat_id)
         _ = get_string(language)
-        keyboard = help_pannel(_)
+        keyboard = about_pannel(_)
         await update.reply_text(_["B_I_3"], reply_markup=keyboard)
 
 
@@ -89,10 +89,10 @@ async def help_com_group(client, message: Message, _):
 
 @app.on_callback_query(filters.regex("info_callback") & ~BANNED_USERS)
 @languageCB
-async def helper_cb(client, CallbackQuery, _):
+async def botinfo_cb(client, CallbackQuery, _):
     callback_data = CallbackQuery.data.strip()
     cb = callback_data.split(None, 1)[1]
-    keyboard = help_back_markup(_)
+    keyboard = about_back_markup(_)
     try:
         await CallbackQuery.answer()
     except:
