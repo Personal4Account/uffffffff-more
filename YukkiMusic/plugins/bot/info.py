@@ -92,7 +92,7 @@ async def help_com_group(client, message: Message, _):
 async def botinfo_cb(client, CallbackQuery, _):
     callback_data = CallbackQuery.data.strip()
     cb = callback_data.split(None, 1)[1]
-    keyboard = info_back_markup(_)
+    keyboard = botinfo_back_markup(_)
     try:
         await CallbackQuery.answer()
     except:
