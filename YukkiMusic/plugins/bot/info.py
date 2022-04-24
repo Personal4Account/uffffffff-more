@@ -99,9 +99,9 @@ async def helper_cb(client, CallbackQuery, _):
         pass
     if cb == "info1":
         await CallbackQuery.edit_message_text(
-            helpers.BOT_ABOUT, reply_markup=keyboard
+            botinfo.BOT_ABOUT, reply_markup=keyboard
         )
     elif cb == "info2":
         await CallbackQuery.edit_message_text(
-            helpers.BOT_SETUP, reply_markup=keyboard
+            botinfo.BOT_SETUP, reply_markup=keyboard
         )
