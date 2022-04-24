@@ -68,7 +68,7 @@ async def botinfo_private(
 async def botinfo_cb(client, CallbackQuery, _):
     callback_data = CallbackQuery.data.strip()
     cb = callback_data.split(None, 1)[1]
-    keyboard = help_back_markup(_)
+    keyboard = about_back_markup(_)
     try:
         await CallbackQuery.answer()
     except:
