@@ -84,9 +84,9 @@ async def botinfo_cb(client, CallbackQuery, _):
 
 
 @app.on_callback_query(
-    filters.regex("settings_back_about") & ~BANNED_USERS
+    filters.regex("bot_code") & ~BANNED_USERS
 )
-async def botinfo_private(
+async def code_private(
     client: app, update: Union[types.Message, types.CallbackQuery]
 ):
     is_callback = isinstance(update, types.CallbackQuery)
@@ -98,7 +98,7 @@ async def botinfo_private(
         chat_id = update.message.chat.id
         language = await get_lang(chat_id)
         _ = get_string(language)
-        keyboard = info_pannel(_, True)
+        keyboard = code_pannel(_, True)
         if update.message.photo:
             await update.message.delete()
             await update.message.reply_text(
