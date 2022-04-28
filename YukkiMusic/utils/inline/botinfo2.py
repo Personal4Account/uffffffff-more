@@ -104,14 +104,14 @@ def code_pannel(_, START: Union[bool, int] = None):
         [
             [
                 InlineKeyboardButton(
-                    text=_["B_I_1"],
-                    callback_data="info_callback info1",
+                    text=_["B_I_4"],
+                    callback_data="info_callback info3",
                 ), 
             ],
             [
                 InlineKeyboardButton(
-                    text=_["B_I_2"],
-                    callback_data="info_callback info2",
+                    text=_["B_I_5"],
+                    callback_data="info_callback info4",
                 ),
             ],
             mark,
