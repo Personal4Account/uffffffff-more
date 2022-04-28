@@ -81,3 +81,23 @@ async def botinfo_cb(client, CallbackQuery, _):
         await CallbackQuery.edit_message_text(
             botinfo.BOT_SETUP, reply_markup=keyboard
         )
+
+
+@app.on_callback_query(filters.regex("info_callback") & ~BANNED_USERS)
+@languageCB
+async def botinfo_cb(client, CallbackQuery, _):
+    callback_data = CallbackQuery.data.strip()
+    cb = callback_data.split(None, 1)[1]
+    keyboard = about_back_markup(_)
+    try:
+        await CallbackQuery.answer()
+    except:
+        pass
+    if cb == "info3":
+        await CallbackQuery.edit_message_text(
+            botinfo.BOT_REPO, reply_markup=keyboard
+        )
+    elif cb == "info4":
+        await CallbackQuery.edit_message_text(
+            botinfo.BOT_TUTORIAL, reply_markup=keyboard
+        )
