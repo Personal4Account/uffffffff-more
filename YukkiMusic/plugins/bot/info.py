@@ -81,18 +81,3 @@ async def botinfo_cb(client, CallbackQuery, _):
         await CallbackQuery.edit_message_text(
             botinfo.BOT_SETUP, reply_markup=keyboard
         )
-
-
-@app.on_callback_query(
-    filters.regex("bot_code") & ~BANNED_USERS
-)
-        chat_id = update.message.chat.id
-        language = await get_lang(chat_id)
-        _ = get_string(language)
-        keyboard = bot_code_back(_, True)
-        if update.message.photo:
-            await update.message.delete()
-            await update.message.reply_text(
-                _["B_I_4"], reply_markup=keyboard
-            )
-
