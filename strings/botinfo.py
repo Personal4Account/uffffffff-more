@@ -66,7 +66,7 @@ So my developers can create me more professionally.
 If we get Good Results from this Bot , then we upload source code of this bot soon as possible !! 
 Stay Tuned ^ @StrayCoder
 
-For Chat & Music Join :
+For 24/7 Chat & Music Join :
 @StrayCoderSupport**"""
 
 
