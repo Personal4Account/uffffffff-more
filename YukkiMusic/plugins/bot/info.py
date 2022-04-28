@@ -83,7 +83,7 @@ async def botinfo_cb(client, CallbackQuery, _):
         )
 
 
-@app.on_callback_query(filters.regex("info_callback") & ~BANNED_USERS)
+@app.on_callback_query(filters.regex("code_callback") & ~BANNED_USERS)
 @languageCB
 async def botinfo_cb(client, CallbackQuery, _):
     callback_data = CallbackQuery.data.strip()
