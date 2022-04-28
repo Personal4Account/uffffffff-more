@@ -85,7 +85,7 @@ async def botinfo_cb(client, CallbackQuery, _):
 
 @app.on_callback_query(filters.regex("bot_code") & ~BANNED_USERS)
 @languageCB
-async def botinfo_cb(client, CallbackQuery, _):
+async def botcode_cb(client, CallbackQuery, _):
     callback_data = CallbackQuery.data.strip()
     cb = callback_data.split(None, 1)[1]
     keyboard = bot_code_back(_)
