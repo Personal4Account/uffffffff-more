@@ -58,3 +58,14 @@ BOT_SETUP = """Setup me in your Group with the following given Steps ‼️
 • To know all the commands of the bot , Type /help
 
 © @StrayCoder | @Its_romeoo"""
+
+
+BOT_CODE = """The Source Code of this bot is ready : If you wants it then Join @StrayCoderSupport ⚠️ 
+If we get good results from our bots then the source code is provided to you early as possible !!
+
+Make your own bot like this , Tutorial Soon At :
+@StrayCoder
+
+Our Other Powerful Player :
+@MusicMicBot 
+@SenoritaPlayerxBot"""
