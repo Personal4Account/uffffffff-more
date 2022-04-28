@@ -109,6 +109,7 @@ async def code_private(
                 _["B_I_3"], reply_markup=keyboard
             )
 
+
 @app.on_callback_query(filters.regex("code_callback") & ~BANNED_USERS)
 @languageCB
 async def botinfo_cb(client, CallbackQuery, _):
