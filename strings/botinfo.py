@@ -70,6 +70,6 @@ For Chat & Music Join :
 @StrayCoderSupport**"""
 
 
-BOT_TUTORIAL = """***Tutorial video Uploading Soon at : @StrayCoder
+BOT_TUTORIAL = """**Tutorial video Uploading Soon at : @StrayCoder
 
 Join @StrayCoderSupport for more Updates and Information !!**"""
