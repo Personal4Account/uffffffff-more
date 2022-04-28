@@ -97,7 +97,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     if GITHUB_REPO and OWNER:
         buttons.append(
             [
-                InlineKeyboardButton(text=_["S_B_11"], callback_data="bot_code",
+                InlineKeyboardButton(text=_["S_B_11"], callback_data="bot_code"),
                 InlineKeyboardButton(
                     text=_["S_B_10"], callback_data="LG"
                 ),
@@ -120,4 +120,5 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                     ),
                 ]
             )
+
     
