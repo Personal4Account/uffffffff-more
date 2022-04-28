@@ -86,7 +86,7 @@ async def botinfo_cb(client, CallbackQuery, _):
 @app.on_callback_query(
     filters.regex("bot_code") & ~BANNED_USERS
 )
-async def botinfo_private(
+async def bot_code_back(
     client: app, update: Union[types.Message, types.CallbackQuery]
 ):
     is_callback = isinstance(update, types.CallbackQuery)
