@@ -86,15 +86,6 @@ async def botinfo_cb(client, CallbackQuery, _):
 @app.on_callback_query(
     filters.regex("bot_code") & ~BANNED_USERS
 )
-async def bot_code_back(
-    client: app, update: Union[types.Message, types.CallbackQuery]
-):
-    is_callback = isinstance(update, types.CallbackQuery)
-    if is_callback:
-        try:
-            await update.answer()
-        except:
-            pass
         chat_id = update.message.chat.id
         language = await get_lang(chat_id)
         _ = get_string(language)
