@@ -82,3 +82,39 @@ def bot_code_back(_):
         ]
     )
     return upl
+
+
+def code_pannel(_, START: Union[bool, int] = None):
+    first = [
+        InlineKeyboardButton(
+            text=_["CLOSEMENU_BUTTON"], callback_data=f"close"
+        )
+    ]
+    second = [
+        InlineKeyboardButton(
+            text=_["BACK_BUTTON"],
+            callback_data=f"settingsback_helper",
+        ),
+        InlineKeyboardButton(
+            text=_["CLOSEMENU_BUTTON"], callback_data=f"close"
+        ),
+    ]
+    mark = second if START else first
+    upl = InlineKeyboardMarkup(
+        [
+            [
+                InlineKeyboardButton(
+                    text=_["B_I_1"],
+                    callback_data="info_callback info1",
+                ), 
+            ],
+            [
+                InlineKeyboardButton(
+                    text=_["B_I_2"],
+                    callback_data="info_callback info2",
+                ),
+            ],
+            mark,
+        ]
+    )
+    return upl
