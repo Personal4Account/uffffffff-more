@@ -67,13 +67,13 @@ def about_back_markup(_):
     return upl
 
 
-def bot_code_back(_):
+def code_back_markup(_):
     upl = InlineKeyboardMarkup(
         [
             [
                 InlineKeyboardButton(
                     text=_["BACK_BUTTON"],
-                    callback_data=f"settingsback_helper",
+                    callback_data=f"bot_code",
                 ),
                 InlineKeyboardButton(
                     text=_["CLOSE_BUTTON"], callback_data=f"close"
