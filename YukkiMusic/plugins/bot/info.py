@@ -83,22 +83,6 @@ async def botinfo_cb(client, CallbackQuery, _):
         )
 
 
-@app.on_callback_query(filters.regex("bot_code") & ~BANNED_USERS)
-@languageCB
-async def botcode_cb(client, CallbackQuery, _):
-    callback_data = CallbackQuery.data.strip()
-    cb = callback_data.split(None, 1)[1]
-    keyboard = bot_code_back(_)
-    try:
-        await CallbackQuery.answer()
-    except:
-        pass
-    if cb == "info1":
-        await CallbackQuery.edit_message_text(
-            botinfo.BOT_CODE, reply_markup=keyboard
-        )
-
-
 @app.on_callback_query(
     filters.regex("bot_code") & ~BANNED_USERS
 )
@@ -118,6 +102,6 @@ async def botinfo_private(
         if update.message.photo:
             await update.message.delete()
             await update.message.reply_text(
-                _["B_I_3"], reply_markup=keyboard
+                _["B_I_4"], reply_markup=keyboard
             )
 
