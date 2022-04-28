@@ -22,6 +22,7 @@ from YukkiMusic.utils.database import get_lang, is_commanddelete_on
 from YukkiMusic.utils.decorators.language import (LanguageStart,
                                                   languageCB)
 from YukkiMusic.utils.inline.botinfo2 import about_back_markup
+from YukkiMusic.utils.inline.botinfo2 import bot_code_back
 
 
 @app.on_callback_query(
@@ -87,7 +88,7 @@ async def botinfo_cb(client, CallbackQuery, _):
 async def botinfo_cb(client, CallbackQuery, _):
     callback_data = CallbackQuery.data.strip()
     cb = callback_data.split(None, 1)[1]
-    keyboard = about_back_markup(_)
+    keyboard = bot_code_back(_)
     try:
         await CallbackQuery.answer()
     except:
