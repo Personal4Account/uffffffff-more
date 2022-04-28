@@ -8,8 +8,8 @@
 # All rights reserved.
 
 
-BOT_ABOUT = """Thanks for Joining Us 🌸
-All the information about me Given Below 🍁 Keep Supporting us ☘
+BOT_ABOUT = """**Thanks for Joining Us 🌸
+All the information about me Given Below 🍁 Keep Supporting us ☘**
 
 
 🌟 My Owner : 
@@ -60,12 +60,16 @@ BOT_SETUP = """Setup me in your Group with the following given Steps ‼️
 © @StrayCoder | @Its_romeoo"""
 
 
-BOT_CODE = """The Source Code of this bot is ready : If you wants it then Join @StrayCoderSupport ⚠️ 
-If we get good results from our bots then the source code is provided to you early as possible !!
+BOT_REPO = """**Heyy Guyss 👋 If you are really like me then tell in my Support Chat !! @StrayCoderSupport
+So my developers can create me more professionally.
 
-Make your own bot like this , Tutorial Soon At :
-@StrayCoder
+If we get Good Results from this Bot , then we upload source code of this bot soon as possible !! 
+Stay Tuned ^ @StrayCoder
 
-Our Other Powerful Player :
-@MusicMicBot 
-@SenoritaPlayerxBot"""
+For Chat & Music Join :
+@StrayCoderSupport**"""
+
+
+BOT_TUTORIAL = """***Tutorial video Uploading Soon at : @StrayCoder
+
+Join @StrayCoderSupport for more Updates and Information !!**"""
