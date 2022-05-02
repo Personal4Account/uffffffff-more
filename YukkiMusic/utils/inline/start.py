@@ -59,13 +59,10 @@ def start_pannel(_):
 
 
 def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
-    buttons = [
-        [
-            InlineKeyboardButton(
-                text=_["S_B_5"], url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
-            )
-        ]
-    ]
+    buttons.append(
+        [InlineKeyboardButton(text=_["S_B_13"], callback_data="LG")]
+    )
+    return buttons
     if SUPPORT_CHANNEL and SUPPORT_GROUP:
         buttons.append(
             [
@@ -94,33 +91,3 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                     )
                 ]
             )
-    if GITHUB_REPO and OWNER:
-        buttons.append(
-            [
-                InlineKeyboardButton(text=_["S_B_11"], callback_data="bot_code"),
-                InlineKeyboardButton(
-                    text=_["S_B_12"], url=f"https://t.me/Senorita_Player"
-                ),
-            ]
-        )
-    else:
-        if GITHUB_REPO:
-            buttons.append(
-                [
-                    InlineKeyboardButton(
-                        text=_["S_B_12"], url=f"https://t.me/Senorita_Player"
-                    ),
-                ]
-            )
-        if OWNER:
-            buttons.append(
-                [
-                    InlineKeyboardButton(
-                        text=_["S_B_11"], callback_data="bot_code"
-                    ),
-                ]
-            )
-    buttons.append(
-        [InlineKeyboardButton(text=_["S_B_13"], callback_data="LG")]
-    )
-    return buttons 
