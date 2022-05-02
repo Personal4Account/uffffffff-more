@@ -58,11 +58,7 @@ def start_pannel(_):
     return buttons
 
 
-def private_panel(_):
-    buttons.append(
-        [InlineKeyboardButton(text=_["S_B_13"], callback_data="LG")]
-    )
-    return buttons
+def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     if SUPPORT_CHANNEL and SUPPORT_GROUP:
         buttons.append(
             [
@@ -91,3 +87,7 @@ def private_panel(_):
                     )
                 ]
             )
+    buttons.append(
+        [InlineKeyboardButton(text=_["S_B_13"], callback_data="LG")]
+    )
+    return buttons
