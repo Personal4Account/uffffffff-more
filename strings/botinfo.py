@@ -8,29 +8,30 @@
 # All rights reserved.
 
 
-BOT_ABOUT = """**Thanks for Joining Us 🌸
-All the information about me Given Below 🍁 Keep Supporting us ☘**
+BOT_ABOUT = """**I am a Bot, Designed by a Noob for streaming a high quality and unbreakable Songs & Video in your groups voice chat !!
 
+I will help you to stream and download songs × video and many more cool features !!
+Check Out Commands :** /help
 
-🌟 My Owner : 
+🌟 **My Owner :** 
      @Its_romeoo
 
-👨‍💻 My Maintainer :
+👨‍💻 **My Maintainers :**
       • @PhoenixWarmed
       • @PAPA_AADIT
       • @xtm_BidiBaaz
 
 
-⚙ Support Chat
+⚙ **Support Chat :**
      @StrayCoderSupport
      @CFC_BOT_SUPPORT
 
-📺 Updates Server 
+📺 **Updates Server :**
      @StrayCoder
      @CFC_BOTS
 
 
-🤖 Features About Me :
+🤖 **Features About Me :**
       • Easy to use
       • Powerful and Fast
       • Cool Interface   
@@ -39,7 +40,7 @@ All the information about me Given Below 🍁 Keep Supporting us ☘**
       • working with 5 assistants
       • Multiple Languages 
 
-🌀 Powered By :
+🌀 **Powered By :**
       @PHOENIX_EMPIRE"""
 
 
