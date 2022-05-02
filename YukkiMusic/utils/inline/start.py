@@ -60,13 +60,15 @@ def start_pannel(_):
 
 def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
-        [
-            InlineKeyboardButton(
-                text=_["S_B_5"],
-                url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
-            )
+            [
+                InlineKeyboardButton(
+                    text=_["S_B_11"], callback_data="bot_code"
+                ),
+                InlineKeyboardButton(
+                    text=_["S_B_9"], callback_data="settings_back_about"
+                ),
+            ]
         ]
-    ]
     if SUPPORT_CHANNEL and SUPPORT_GROUP:
         buttons.append(
             [
