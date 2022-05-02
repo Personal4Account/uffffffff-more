@@ -288,7 +288,7 @@ P_B_4 : "📢 Play Playlist"
 
 #Playlist
 PL_B_1 : "💿 Play Playlist"
-PL_B_2 : "✚ Add Playlist"
+PL_B_2 : "📀 Add Playlist"
 PL_B_3 : "⚙ Bot Controls"
 PL_B_4 : "⚙ Play Mode"
 PL_B_5 : "🔄 Del Whole Playlist"
