@@ -36,11 +36,11 @@ def stream_markup(_, videoid):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["PL_B_2"],
-                callback_data=f"add_playlist {videoid}",
+                text=_["PL_B_12"],
+                url=f"https://t.me/StrayCoderSupport",
             ),
             InlineKeyboardButton(
-                text=_["PL_B_3"], switch_inline_query_current_chat=""
+                text=_["PL_B_13"], url=f"https://t.me/StrayCoder"
             ),
         ],
     ]
