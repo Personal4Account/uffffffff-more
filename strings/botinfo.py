@@ -44,21 +44,17 @@ Check Out Commands :** /help
       @PHOENIX_EMPIRE"""
 
 
-BOT_SETUP = """Setup me in your Group with the following given Steps ‼️
+BOT_SETUP = """• First of all Add me in your group ➕
 
-• /start in my DM 
+• Promote me as a admin with manage video chat , invite users and delete messages rights !!
 
-• Click On Add Me Button 
+• Send /play Command for inviting one of my assistant in your group !!
 
-• Choose your group From the Given list and tap On Add
+• After joining of Assistant in your chat play your favourite track & playlist !!
 
-• After adding me promote me with manage voice chat , invite users , delete messages Power
+• If you are facing any issues regarding me then kindly report in my support chat, my developers fix it early as possible !!
 
-• Now all the Setup is done , play your favourite songs and vodeo in your group by using play command : 
-
-• To know all the commands of the bot , Type /help
-
-© @StrayCoder | @Its_romeoo"""
+Thanks !!"""
 
 
 BOT_REPO = """**Heyy Guyss 👋 If you are really like me then tell in my Support Chat !! @StrayCoderSupport
