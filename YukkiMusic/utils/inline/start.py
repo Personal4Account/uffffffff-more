@@ -66,7 +66,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             )
         ]
     ]
-    if SUPPORT_CHANNEL and SUPPORT_GROUP:
+    # SUPPORT_CHANNEL and SUPPORT_GROUP:
         buttons = [
             [
                 InlineKeyboardButton(
@@ -94,7 +94,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                     )
                 ]
             )
-    if GITHUB_REPO and OWNER:
+    # GITHUB_REPO and OWNER:
         buttons = [
             [
                 InlineKeyboardButton(text=_["S_B_11"], callback_data="bot_code"),
