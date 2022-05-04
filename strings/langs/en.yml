@@ -229,7 +229,7 @@ queue_4 : "**Song successfully added to the queue #{0}**\n\n» Title :- {1}\n» 
 queue_5 : "Only one track inside queue, Please add some more to check list"
 
 # All Streaming Lines
-stream_1 : "[Get additional Information ⚠️]({1})\n\n🤖 Bot User : {0}\n🕓 Duration : 00:01"
+stream_1 : "[Get additional Information ⚠️]({1})\n\n🤖 Bot User : {0}\n🌐 NetWork : Ireland, IE"
 stream_2 : "<u>**Stream has started**</u> 📡\n\n**Bot User :-** {0}"
 stream_3 : "<u>**Stream has started**</u> 📡\n\n**Title :-** {0}\n**Duration :-** {1}\n**Bot User :-** {2}"
 stream_4 : "<u>**Stream has started**</u> 📡\n\n**Title :-** [{0}]({1})\n**Duration :-** {2}\n**Bot User :-** {3}"
