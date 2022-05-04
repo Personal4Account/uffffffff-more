@@ -36,12 +36,17 @@ def stream_markup(_, videoid):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["PL_B_12"],
+                text=_["PL_B_15"],
                 url=f"https://t.me/StrayCoderSupport",
             ),
             InlineKeyboardButton(
-                text=_["PL_B_13"], url=f"https://t.me/StrayCoder"
+                text=_["PL_B_16"], url=f"https://t.me/StrayCoder"
             ),
+        ],
+        [
+            InlineKeyboardButton(
+                text=_["PL_B_14"], callback_data=f"add_playlist {videoid}"
+            )
         ],
     ]
     return buttons
