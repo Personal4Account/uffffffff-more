@@ -130,13 +130,13 @@ async def gen_thumb(videoid):
         )
         draw.text(
             (600, 500),
-            f"Duration : {duration[:23]} Mins",
+            f"FUN & ENJOY : @NOT_STRANGERS",
             (255, 255, 255),
             font=arial,
         )
         draw.text(
             (600, 550),
-            f"Channel : {channel}",
+            f"YT Channel : {channel}",
             (255, 255, 255),
             font=arial,
         )
