@@ -23,7 +23,7 @@ Check Out Commands :** /help
 
 
 ⚙ **Support Chat :**
-     @StrayCoderSupport
+     @STRAY_CHAT_ROOM
      @CFC_BOT_SUPPORT
 
 📺 **Updates Server :**
