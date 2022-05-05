@@ -27,7 +27,7 @@ Check Out Commands :** /help
      @CFC_BOT_SUPPORT
 
 📺 **Updates Server :**
-     @StrayCoder
+     @STRAY_CODER
      @CFC_BOTS
 
 
@@ -60,7 +60,7 @@ Thanks !!"""
 BOT_REPO = """Not Uploaded Yet ⚠️
 
 
-Join : @STRAYCODER
+Join : @STRAY_CODER
 
 
 Developers of this Bot is developing more better Version of this Bot !! Fixing Some Bugs 
@@ -71,7 +71,7 @@ GitHub Repository Soon At :
 
 BOT_TUTORIAL = """Make Your Own Bot Like this💡
 
-Tutorial soon at : @StrayCoder
+Tutorial soon at : @STRAY_CODER
 
 The Tutorial video about to making your own bot like this will be soon available at @STRAY_CHAT_ROOM
 Also source code and all information about making bot published soon. Stay connected with us at our update channel.
