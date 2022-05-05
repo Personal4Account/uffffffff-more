@@ -40,7 +40,7 @@ def stream_markup(_, videoid):
                 url=f"https://t.me/STRAY_CHAT_ROOM",
             ),
             InlineKeyboardButton(
-                text=_["PL_B_18"], url=f"https://t.me/StrayCoder"
+                text=_["PL_B_18"], url=f"https://t.me/STRAY_CODER"
             ),
         ],
         [
