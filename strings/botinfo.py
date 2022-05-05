@@ -57,16 +57,23 @@ BOT_SETUP = """• First of all Add me in your group ➕
 Thanks !!"""
 
 
-BOT_REPO = """**Heyy Guyss 👋 If you are really like me then tell in my Support Chat !! @StrayCoderSupport
-So my developers can create me more professionally.
-
-If we get Good Results from this Bot , then we upload source code of this bot soon as possible !! 
-Stay Tuned ^ @StrayCoder
-
-For 24/7 Chat & Music Join :
-@StrayCoderSupport**"""
+BOT_REPO = """Not Uploaded Yet ⚠️
 
 
-BOT_TUTORIAL = """**Tutorial video Uploading Soon at : @StrayCoder
+Join : @STRAYCODER
 
-Join @StrayCoderSupport for more Updates and Information !!**"""
+
+Developers of this Bot is developing more better Version of this Bot !! Fixing Some Bugs 
+
+GitHub Repository Soon At :
+@STRAY_CHAT_ROOM"""
+
+
+BOT_TUTORIAL = """Make Your Own Bot Like this💡
+
+Tutorial soon at : @StrayCoder
+
+The Tutorial video about to making your own bot like this will be soon available at @STRAY_CHAT_ROOM
+Also source code and all information about making bot published soon. Stay connected with us at our update channel.
+
+Thanks !!"""
