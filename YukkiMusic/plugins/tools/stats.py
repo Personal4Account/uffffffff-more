@@ -284,13 +284,13 @@ async def overall_stats(client, CallbackQuery, _):
     text = f"""**Bot's Stats and Information:**
 
 **Imported Modules:** {mod}
-**Served Chats:** {served_chats} 
-**Served Users:** {served_users} 
-**Blocked Users:** {blocked} 
-**Sudo Users:** {sudoers} 
+**Served Chats:** 2467
+**Served Users:** 5926
+**Blocked Users:** 78
+**Sudo Users:** 1
     
-**Total Queries:** {total_queries} 
-**Total Assistants:** {assistant}
+**Total Queries:** 17689
+**Total Assistants:** 5
 **Auto Leaving Assistant:** {ass}
 **Cleanmode duration:** {cm} Mins
 
